@@ -1,0 +1,269 @@
+/* Global Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+   max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: radial-gradient(125% 125% at 50% 10%, #d8f020d4 40%, #ffffff 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
+}
+
+/* Navbar */
+.navbar-brand img {
+  width: 170px;
+}
+
+.navbar {
+  padding: 20px 0 !important;
+  background: #ffffff;
+}
+
+.nav-item {
+  margin: 10px 0 10px 40px;
+}
+
+.nav-link {
+  color: #000000 !important;
+  font-size: 17px !important;
+  padding: 0 0 5px 0 !important;
+  display: unset !important;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #facc15;
+}
+
+.starthead{
+  font-family: "Carter One";
+  font-weight: 700;
+}
+
+
+
+
+.car-image {
+  width: 100%;
+  max-width: 700px;  /* Controls the maximum width */
+  height: auto;      /* Maintains aspect ratio */
+  display: block;
+  margin-left: auto;
+  margin-right: -17px;
+}
+
+
+
+/* Banner */
+.banner {
+  
+  margin-top: 8% !important;
+  color: #000000;
+  padding: 0 15px;
+}
+
+.banner h1 {
+  font-size: 2rem; /* Smaller on small devices */
+  padding-left: 15px;
+  text-align: left;
+}
+
+.banner p {
+  padding-left: 15px;
+  font-size: 1rem;
+}
+
+
+.banner h1 {
+  font-size: 2rem; /* Smaller on small devices */
+  padding-left: 15px;
+  text-align: left;
+}
+
+.banner p {
+  padding-left: 15px;
+  font-size: 1rem;
+}
+
+.banner h4 {
+   font-family: "Tsukimi Rounded", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 35px;
+  padding-left: 20px;
+}
+
+.banner i {
+  font-size: 35px;
+}
+
+.banner a {
+  font-size: 20px;
+  padding: 12px 10px;
+  width: 190px;
+  display: inline-block;
+  font-weight: bold;
+  background: transparent;
+  text-decoration: none;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.banner a:hover {
+  background-color: #ffffff;
+  color: #000;
+  border-color: #000;
+}
+
+.express-btn {
+  width: auto;
+  font-size: 1rem;
+  padding: 10px 20px;
+  
+}
+@media (min-width: 768px) {
+  .banner h1 {
+    font-size: 3rem;
+    padding-left: 40px;
+  }
+  .banner p {
+    font-size: 1.25rem;
+    padding-left: 40px;
+  }
+  .banner img {
+    max-height: 300px;
+  }
+  .express-btn {
+    font-size: 1.25rem;
+    padding: 12px 30px;
+  }
+}
+.feature{
+   font-family: "Tsukimi Rounded", sans-serif;
+}
+/* Services */
+.service {
+  margin: 50px 0;
+  padding: 0 10px 0 20px;
+}
+
+.title {
+   font-family: "Tsukimi Rounded", sans-serif;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  text-align: left;
+  font-size: larger;
+  margin-bottom: 70px;
+}
+
+.feature {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+.service-box {
+  cursor: pointer;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.service-box img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.service-box h6 {
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.service-box p {
+  color: #343333;
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+footer h5 {
+  font-weight: bold;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .border-light {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .banner h1,
+  .banner p,
+  .banner h4 {
+    padding-left: 15px;
+    text-align: center;
+  }
+
+  .banner img {
+    padding-left: 0;
+    max-height: 200px;
+  }
+
+  .banner a {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .service {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .service-box {
+    padding: 10px;
+  }
+}
+followus{
+  padding: 20px;
+}
