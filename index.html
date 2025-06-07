@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>QRAlimy Home Page</title>
+        <link rel="icon" type="image/png" href="logooo.png">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js">
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    </head>
+    <body>
+        <section class="header">
+              
+               <nav class="navbar navbar-expand-lg  px-4 w-100">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="koreanlogo.png" class="img-fluid" style="max-height: 80px;" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-right pe-4">
+        <br>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#download-section">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <div class="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div>
+        <div class="row banner align-items-center">
+  <div class="col-md-6 mb-4 mb-md-0">
+    <h1 class="starthead">Keeping personal information <br>Parking Vehicle Request Platform,</h1>
+    <p>Requested as QR code and in-app notification generated only by vehicle number<br>
+      Personal information safety service with no mutual phone number exposure!<br>
+      Protect your privacy through QR Alimi.</p>
+      <br>
+  </div>
+ <div class="col-md-6 mb-4 mb-md-0 ">
+          <img src="intro_car.png" alt="car-image1" class="car-image">
+        </div>
+  <div id="download-section" class="col-12 text-center mt-4">
+  <img src="3Dicon.png" class="iconimg mb-6" alt="icon Image">
+  <h4>DOWNLOAD NOW <i class="fa-solid fa-download"></i></h4>
+  <a href="https://play.google.com/store/apps/details?id=com.jejecomms.qrparking&pli=1" class="express-btn me-2">
+    <i class="fa-brands fa-google-play"></i> Play Store
+  </a>
+  <a href="https://apps.apple.com/kr/app/qralimy/id1628992038" class="express-btn">
+    <i class="fa-brands fa-apple"></i>  App Store
+  </a>
+</div>
+
+</div>
+
+        </section>
+        
+        <section class="service">
+          <div class="container">
+            <h2 class="title"> Are you driving?<br>
+Do you leave a contact on the windshield of the car?</h2>
+<p class="subtitle">Recently, there have been many personal information breaches caused by contact placed in front of the vehicle. Is happening. Personal information of you or your precious person Is it safe?
+</p>
+<h2 class="feature"><br>Say Goodbye to Exposed Numbers</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <img src="6534510.jpg">
+              <h6>PRIVACY</h6>
+              <p>QRAlimy protects your privacy by allowing others to contact you via push notifications using a QR code without ever revealing your phone number.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <img src="unlocking-car-by-qr-code-smartphone.jpg">
+              <h6>EASY TO USE</h6>
+              <p>When a contact or parking-related issue occurs, the other person can easily send you a notification by scanning your QR code.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <img src="Gemini_Generated_Image_lyq46xlyq46xlyq4.png">
+              <h6>EFFORTLESS MULTI-VEHICLE ACCESS</h6>
+              <p>Manage up to 3 vehicles within a single account just by entering the vehicle number. QR codes are instantly generated and ready to use.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+<section class="container my-5" id="parking-form-section">
+  <h3 class="text-center mb-4">Submit Parking Information</h3>
+  <form id="parkingForm" method="POST" action="submit.php" class="mx-auto" style="max-width: 600px;">
+    <div class="mb-3">
+      <label for="vehicleNumber" class="form-label">Vehicle Number</label>
+      <input type="text" class="form-control" id="vehicleNumber" name="vehicleNumber" required>
+    </div>
+    <div class="mb-3">
+      <label for="parkingLocation" class="form-label">Parking Location</label>
+      <input type="text" class="form-control" id="parkingLocation" name="parkingLocation" required>
+    </div>
+    <button type="submit" class="btn btn-dark">Submit</button>
+  </form>
+</section>
+
+
+
+
+
+
+
+
+    <footer class="bg-dark text-white pt-4 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+      <!-- About Section -->
+      <div class="col-md-4 mb-3">
+        <h5>About QRAlimy</h5>
+        <p>QRAlimy helps protect your privacy by enabling secure, phone number-free vehicle contact using QR codes. Build a safer parking experience.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="#download-section" class="text-white text-decoration-none">Download</a></li>
+          <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-3">
+        <h5>Contact Us</h5>
+        <p>Email: jejecomms@gmail.com</p>
+        <p>Phone: 0504-486-5575</p>
+        <p>Follow us:
+  <a href="https://www.facebook.com/JeJeComms" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/jejecomms_jjang/" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.youtube.com/@jejecommsshift3318" class="text-white"><i class="fab fa-youtube"></i></a>
+</p>
+
+        </p>
+      </div>
+    </div>
+
+    <hr class="border-light" />
+    <p class="text-center mb-0">© 2025 QRAlimy. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".service-box").click(function() {
+          $(this).find("p").slideToggle();
+        });
+      });
+    </script>
+
+
+    </body>
+</html>
